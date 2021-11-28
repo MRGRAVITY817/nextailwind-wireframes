@@ -14,7 +14,7 @@ export const NavBar = () => {
   };
   return (
     <nav className="border-dark dark:border-bright flex items-center justify-between px-12 py-4 border-b">
-      <h1>Navigation bar</h1>
+      <p>Navigation bar</p>
       <button onClick={switchTheme}>
         {theme === 'light' ? 'Set Dark' : 'Set Bright'}
       </button>
